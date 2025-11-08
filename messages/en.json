@@ -71,5 +71,17 @@
       "conflict": "Conflict occurred",
       "serverError": "Server error occurred"
     }
+  },
+  "navbar": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   }
 }

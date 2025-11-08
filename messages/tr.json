@@ -71,5 +71,17 @@
       "conflict": "Çakışma oluştu",
       "serverError": "Sunucu hatası oluştu"
     }
+  },
+  "navbar": {
+    "home": "Ana Sayfa",
+    "dashboard": "Panel",
+    "signIn": "Giriş Yap",
+    "signUp": "Kayıt Ol",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "signOut": "Çıkış Yap",
+    "menu": "Menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
   }
 }

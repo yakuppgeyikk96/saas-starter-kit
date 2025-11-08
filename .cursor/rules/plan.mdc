@@ -1,0 +1,33 @@
+---
+alwaysApply: true
+---
+
+# Base Starter Kit
+
+- Authentication & Authorization
+- Subscription & Billing (ileride)
+- User Dashboard (ileride)
+- Admin Panel (ileride)
+- Email System (ileride)
+- Database & API
+- Internationaliza
+
+# Specialized Templates
+
+CRM Template:
+
+- Customer, Opportunity, Contact models
+- CRM-specific features
+- CRM dashboard components
+
+Project Management Template:
+
+- Project, Task, Team models
+- Project-specific features
+- Project dashboard components
+
+Blog Platform Template:
+
+- Post, Category, Comment models
+- Blog-specific features
+- Blog dashboard components
