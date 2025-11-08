@@ -39,7 +39,24 @@
       "signUpErrorRetry": "Hesap oluşturulurken bir hata oluştu. Lütfen tekrar deneyin.",
       "signOutError": "Çıkış yapılırken bir hata oluştu",
       "emailAlreadyExists": "Bu email adresi zaten kullanılıyor",
-      "accountCreated": "Hesap başarıyla oluşturuldu"
+      "accountCreated": "Hesap başarıyla oluşturuldu",
+      "emailNotVerified": "Giriş yapmadan önce lütfen e-posta adresinizi doğrulayın"
+    },
+    "verification": {
+      "emailSent": "Doğrulama e-postası başarıyla gönderildi",
+      "emailVerified": "E-posta başarıyla doğrulandı",
+      "invalidToken": "Geçersiz doğrulama token'ı",
+      "invalidOrExpiredToken": "Geçersiz veya süresi dolmuş doğrulama token'ı",
+      "alreadyVerified": "E-posta adresi zaten doğrulanmış",
+      "notVerified": "Giriş yapmadan önce lütfen e-posta adresinizi doğrulayın",
+      "error": "E-posta doğrulama sırasında bir hata oluştu",
+      "resend": "Doğrulama e-postasını tekrar gönder",
+      "checkEmail": "Hesabınızı doğrulamak için lütfen e-postanızı kontrol edin",
+      "verifying": "E-postanız doğrulanıyor...",
+      "verified": "E-postanız başarıyla doğrulandı!",
+      "failed": "Doğrulama başarısız oldu",
+      "redirecting": "Giriş sayfasına yönlendiriliyor...",
+      "goToSignIn": "Giriş Sayfasına Git"
     }
   },
   "validation": {

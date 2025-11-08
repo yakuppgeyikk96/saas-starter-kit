@@ -106,4 +106,6 @@ export const createCommonErrorResponses = (t: (key: string) => string) => ({
       ERROR_CODES.INTERNAL_SERVER_ERROR,
       HttpStatus.INTERNAL_SERVER_ERROR
     ),
+  badRequest: (message: string) =>
+    errorResponse(message, ERROR_CODES.BAD_REQUEST, HttpStatus.BAD_REQUEST),
 });

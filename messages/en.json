@@ -39,7 +39,24 @@
       "signUpErrorRetry": "An error occurred while creating account. Please try again.",
       "signOutError": "An error occurred while signing out",
       "emailAlreadyExists": "This email address is already in use",
-      "accountCreated": "Account created successfully"
+      "accountCreated": "Account created successfully",
+      "emailNotVerified": "Please verify your email address before signing in"
+    },
+    "verification": {
+      "emailSent": "Verification email sent successfully",
+      "emailVerified": "Email verified successfully",
+      "invalidToken": "Invalid verification token",
+      "invalidOrExpiredToken": "Invalid or expired verification token",
+      "alreadyVerified": "Email is already verified",
+      "notVerified": "Please verify your email address before signing in",
+      "error": "An error occurred during email verification",
+      "resend": "Resend verification email",
+      "checkEmail": "Please check your email to verify your account",
+      "verifying": "Verifying your email...",
+      "verified": "Your email has been verified!",
+      "failed": "Verification failed",
+      "redirecting": "Redirecting to sign in page...",
+      "goToSignIn": "Go to Sign In"
     }
   },
   "validation": {

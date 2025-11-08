@@ -18,7 +18,7 @@ export const authOptions: NextAuthOptions = {
       },
       async authorize(credentials) {
         if (!credentials?.email || !credentials?.password) {
-          throw new Error("Email ve şifre gereklidir");
+          throw new Error("EmailAndPasswordRequired");
         }
 
         const user = await prisma.user.findUnique({
@@ -26,7 +26,7 @@ export const authOptions: NextAuthOptions = {
         });
 
         if (!user || !user.password) {
-          throw new Error("Kullanıcı bulunamadı");
+          throw new Error("UserNotFound");
         }
 
         const isPasswordValid = await bcrypt.compare(
@@ -35,7 +35,11 @@ export const authOptions: NextAuthOptions = {
         );
 
         if (!isPasswordValid) {
-          throw new Error("Şifre hatalı");
+          throw new Error("InvalidPassword");
+        }
+
+        if (!user.emailVerified && user.password) {
+          throw new Error("EmailNotVerified");
         }
 
         return {
