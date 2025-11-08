@@ -1,0 +1,70 @@
+---
+alwaysApply: true
+---
+
+# Features
+
+### **1. Authentication & Authorization**
+
+- Email/password login
+- Social login (Google, GitHub)
+- Email verification
+- Password reset
+- Role-based access (admin, user, viewer)
+
+### **2. Subscription & Billing**
+
+- Stripe integration
+- Plan management (Free, Pro, Enterprise)
+- Upgrade/downgrade
+- Invoice generation
+- Payment history
+
+### **3. Multi-tenant Architecture**
+
+- Workspace/Organization sistemi
+- User'lar workspace'lere ait
+- Workspace bazlı data isolation
+
+### **4. User Dashboard**
+
+- Profile management
+- Settings
+- Billing management
+- Usage statistics
+
+### **5. Admin Panel**
+
+- User management
+- Analytics
+- System settings
+- Revenue tracking
+
+### **6. Email System**
+
+- Transactional emails (welcome, password reset)
+- Notification emails
+- Email templates
+
+### **7. Database & API**
+
+- Prisma schema (hazır models)
+- REST API veya GraphQL
+- Database migrations
+
+### **8. Documentation**
+
+- Setup guide
+- Deployment guide
+- API documentation
+- Customization guide
+
+# Tech Stack
+
+- Next.js 15 (App Router)
+- Next.js 15 API Routes + Prisma ORM + PostgreSQL
+- Typescript
+- Tailwind CSS + Shadcn + lucide-react
+- Stripe
+- Zustand
+- Vercel

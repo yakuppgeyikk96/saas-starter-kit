@@ -1,0 +1,75 @@
+{
+  "auth": {
+    "signin": {
+      "title": "Sign In",
+      "description": "Enter your email and password to sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "submitting": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Sign up"
+    },
+    "signup": {
+      "title": "Sign Up",
+      "description": "Enter your information to create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "namePlaceholder": "Your Full Name",
+      "emailPlaceholder": "example@email.com",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Sign Up",
+      "submitting": "Signing up...",
+      "hasAccount": "Already have an account?",
+      "signinLink": "Sign in"
+    },
+    "oauth": {
+      "or": "or",
+      "google": "Sign in with Google",
+      "github": "Sign in with GitHub"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "oauthCreateAccount": "An error occurred while creating account",
+      "signInError": "An error occurred while signing in",
+      "signInErrorRetry": "An error occurred while signing in. Please try again.",
+      "signUpError": "An error occurred while creating account",
+      "signUpErrorRetry": "An error occurred while creating account. Please try again.",
+      "signOutError": "An error occurred while signing out",
+      "emailAlreadyExists": "This email address is already in use",
+      "accountCreated": "Account created successfully"
+    }
+  },
+  "validation": {
+    "email": {
+      "required": "Email is required",
+      "invalid": "Please enter a valid email address"
+    },
+    "password": {
+      "required": "Password is required",
+      "minLength": "Password must be at least 6 characters"
+    },
+    "name": {
+      "required": "Name is required",
+      "minLength": "Name must be at least 2 characters"
+    },
+    "confirmPassword": {
+      "required": "Password confirmation is required",
+      "minLength": "Password must be at least 6 characters",
+      "mismatch": "Passwords do not match"
+    }
+  },
+  "common": {
+    "errors": {
+      "title": "Error",
+      "validation": "Invalid data",
+      "unauthorized": "Unauthorized",
+      "forbidden": "Access denied",
+      "notFound": "Not found",
+      "conflict": "Conflict occurred",
+      "serverError": "Server error occurred"
+    }
+  }
+}

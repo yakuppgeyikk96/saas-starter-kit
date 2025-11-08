@@ -1,0 +1,75 @@
+{
+  "auth": {
+    "signin": {
+      "title": "Giriş Yap",
+      "description": "Hesabınıza giriş yapmak için email ve şifrenizi girin",
+      "email": "Email",
+      "password": "Şifre",
+      "submit": "Giriş Yap",
+      "submitting": "Giriş yapılıyor...",
+      "noAccount": "Hesabınız yok mu?",
+      "signupLink": "Kayıt olun"
+    },
+    "signup": {
+      "title": "Kayıt Ol",
+      "description": "Hesap oluşturmak için bilgilerinizi girin",
+      "name": "İsim",
+      "email": "Email",
+      "password": "Şifre",
+      "confirmPassword": "Şifre Tekrar",
+      "namePlaceholder": "Adınız Soyadınız",
+      "emailPlaceholder": "ornek@email.com",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Kayıt Ol",
+      "submitting": "Kayıt yapılıyor...",
+      "hasAccount": "Zaten hesabınız var mı?",
+      "signinLink": "Giriş yapın"
+    },
+    "oauth": {
+      "or": "veya",
+      "google": "Google ile Giriş Yap",
+      "github": "GitHub ile Giriş Yap"
+    },
+    "errors": {
+      "invalidCredentials": "Email veya şifre hatalı",
+      "oauthCreateAccount": "Hesap oluşturulurken bir hata oluştu",
+      "signInError": "Giriş yapılırken bir hata oluştu",
+      "signInErrorRetry": "Giriş yapılırken bir hata oluştu. Lütfen tekrar deneyin.",
+      "signUpError": "Hesap oluşturulurken bir hata oluştu",
+      "signUpErrorRetry": "Hesap oluşturulurken bir hata oluştu. Lütfen tekrar deneyin.",
+      "signOutError": "Çıkış yapılırken bir hata oluştu",
+      "emailAlreadyExists": "Bu email adresi zaten kullanılıyor",
+      "accountCreated": "Hesap başarıyla oluşturuldu"
+    }
+  },
+  "validation": {
+    "email": {
+      "required": "Email gereklidir",
+      "invalid": "Geçerli bir email adresi girin"
+    },
+    "password": {
+      "required": "Şifre gereklidir",
+      "minLength": "Şifre en az 6 karakter olmalıdır"
+    },
+    "name": {
+      "required": "İsim gereklidir",
+      "minLength": "İsim en az 2 karakter olmalıdır"
+    },
+    "confirmPassword": {
+      "required": "Şifre tekrarı gereklidir",
+      "minLength": "Şifre en az 6 karakter olmalıdır",
+      "mismatch": "Şifreler eşleşmiyor"
+    }
+  },
+  "common": {
+    "errors": {
+      "title": "Hata",
+      "validation": "Geçersiz veri",
+      "unauthorized": "Yetkiniz yok",
+      "forbidden": "Erişim reddedildi",
+      "notFound": "Kayıt bulunamadı",
+      "conflict": "Çakışma oluştu",
+      "serverError": "Sunucu hatası oluştu"
+    }
+  }
+}
