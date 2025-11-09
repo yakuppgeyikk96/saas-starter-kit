@@ -6,6 +6,7 @@ import { NavbarLinks } from "./NavbarLinks";
 import { NavbarLogo } from "./NavbarLogo";
 import { NavbarMobileMenu } from "./NavbarMobileMenu";
 import { NavbarUserMenu } from "./NavbarUserMenu";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 
 export function Navbar() {
   const { data: session, status } = useSession();
@@ -23,6 +24,7 @@ export function Navbar() {
 
         {/* Right Side - Desktop */}
         <div className="ml-auto hidden md:flex md:items-center md:gap-4">
+          <ThemeSwitcher />
           {isLoading ? (
             <div className="h-8 w-8 animate-pulse rounded-full bg-muted" />
           ) : isAuthenticated ? (
@@ -34,6 +36,7 @@ export function Navbar() {
 
         {/* Mobile Menu */}
         <div className="ml-auto flex md:hidden">
+          <ThemeSwitcher className="mr-2" />
           {!isLoading && isAuthenticated && (
             <div className="mr-2">
               <NavbarUserMenu />

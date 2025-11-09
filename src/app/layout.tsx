@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar/Navbar";
 import { SessionProvider } from "@/components/providers/SessionProvider";
+import { getTheme } from "@/lib/theme/actions";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -27,9 +28,14 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const messages = await getMessages();
+  const theme = await getTheme();
 
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={theme === "dark" ? "dark" : ""}
+      suppressHydrationWarning
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

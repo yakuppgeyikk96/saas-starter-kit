@@ -100,5 +100,11 @@
     "menu": "Menu",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
+  },
+  "theme": {
+    "switchTheme": "Switch theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   }
 }
