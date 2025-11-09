@@ -106,5 +106,8 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "language": {
+    "switchLanguage": "Switch language"
   }
 }

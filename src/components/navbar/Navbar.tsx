@@ -2,6 +2,7 @@
 
 import { useSession } from "next-auth/react";
 import { ButtonSkeleton } from "../ui/button-skeleton";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NavbarAuthButtons } from "./NavbarAuthButtons";
 import { NavbarLinks } from "./NavbarLinks";
 import { NavbarLogo } from "./NavbarLogo";
@@ -25,6 +26,7 @@ export function Navbar() {
 
         {/* Right Side - Desktop */}
         <div className="ml-auto hidden md:flex md:items-center md:gap-4">
+          <LanguageSwitcher />
           <ThemeSwitcher />
           {isLoading ? (
             <>
@@ -40,6 +42,7 @@ export function Navbar() {
 
         {/* Mobile Menu */}
         <div className="ml-auto flex md:hidden">
+          <LanguageSwitcher className="mr-2" />
           <ThemeSwitcher className="mr-2" />
           {!isLoading && isAuthenticated && (
             <div className="mr-2">

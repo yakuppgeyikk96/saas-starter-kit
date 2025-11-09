@@ -106,5 +106,8 @@
     "light": "Açık",
     "dark": "Koyu",
     "system": "Sistem"
+  },
+  "language": {
+    "switchLanguage": "Dil değiştir"
   }
 }
