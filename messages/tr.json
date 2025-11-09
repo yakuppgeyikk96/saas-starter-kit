@@ -100,5 +100,11 @@
     "menu": "Menü",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat"
+  },
+  "theme": {
+    "switchTheme": "Tema değiştir",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
   }
 }
