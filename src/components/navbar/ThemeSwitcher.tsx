@@ -9,10 +9,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { getTheme, setTheme } from "@/lib/theme/actions";
 import { type Theme } from "@/lib/theme/constants";
-import { Loader2, Moon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useEffect, useState, useTransition } from "react";
+import { ButtonSkeleton } from "../ui/button-skeleton";
 
 interface ThemeSwitcherProps {
   className?: string;
@@ -47,11 +48,7 @@ export function ThemeSwitcher({
   }, []);
 
   if (isLoading) {
-    return (
-      <Button variant={variant} size={size} className={className} disabled>
-        <Loader2 className="h-5 w-5 animate-spin" />
-      </Button>
-    );
+    return <ButtonSkeleton size="icon" />;
   }
 
   return (

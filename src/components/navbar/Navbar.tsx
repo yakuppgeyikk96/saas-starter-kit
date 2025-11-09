@@ -1,6 +1,7 @@
 "use client";
 
 import { useSession } from "next-auth/react";
+import { ButtonSkeleton } from "../ui/button-skeleton";
 import { NavbarAuthButtons } from "./NavbarAuthButtons";
 import { NavbarLinks } from "./NavbarLinks";
 import { NavbarLogo } from "./NavbarLogo";
@@ -26,7 +27,10 @@ export function Navbar() {
         <div className="ml-auto hidden md:flex md:items-center md:gap-4">
           <ThemeSwitcher />
           {isLoading ? (
-            <div className="h-8 w-8 animate-pulse rounded-full bg-muted" />
+            <>
+              <ButtonSkeleton size="default" />
+              <ButtonSkeleton size="default" />
+            </>
           ) : isAuthenticated ? (
             <NavbarUserMenu />
           ) : (
